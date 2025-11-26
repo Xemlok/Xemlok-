@@ -956,10 +956,11 @@ footer {
         gap: 1rem;
     }
 }
-html, body {
-    -webkit-user-select: none; /* Chrome, Safari */
-    -moz-user-select: none;    /* Firefox */
-    -ms-user-select: none;     /* старый Edge/IE */
-    user-select: none;         /* стандарт */
+{
+    user-select: none;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
 }
+
 
